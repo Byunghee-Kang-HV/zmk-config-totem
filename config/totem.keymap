@@ -117,10 +117,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp N5      &kp NUMBER_6  &kp N7     &kp N8           &kp N9            &kp N0
-              &kp LSHFT     &kp LEFT        &msc SCRL_UP    &kp RIGHT        &kp LBKT    &kp RBKT      &kp KP_N4  &kp UP_ARROW     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp CAPSLOCK  &kp DEL       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp LPAR    &kp RPAR      &kp LEFT   &kp DOWN         &kp RIGHT         &kp KP_MULTIPLY    &kp RET
-                                            &trans          &trans           &trans      &none         &none      &kp KP_NUMBER_0
+              &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp N5      &kp NUMBER_6    &kp N7          &kp N8           &kp N9     &kp N0
+              &kp LSHFT     &kp LEFT        &msc SCRL_UP    &kp RIGHT        &kp LBKT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT  &kp RIGHT_BRACKET
+&kp CAPSLOCK  &kp DEL       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp LPAR    &kp RPAR        &kp LEFT        &kp DOWN         &kp RIGHT  &kp KP_MULTIPLY    &kp RET
+                                            &trans          &trans           &trans      &none           &none           &kp KP_NUMBER_0
             >;
         };
 
@@ -143,10 +143,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS        &kp ASTERISK   &kp MINUS         &kp PLUS
-        &kp RA(A)    &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)     &kp RA(N4)        &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp EQUAL       &kp LESS_THAN  &kp GREATER_THAN  &kp BSLH   &bt BT_CLR_ALL
-                                  &trans     &gif      &mo ADJ      &trans        &none           &trans
+        &kp EXCL              &kp AT                 &kp HASH         &kp DLLR           &kp PRCNT    &kp CARET       &kp AMPS   &kp ASTERISK   &kp MINUS         &kp PLUS
+        &kp LEFT_PARENTHESIS  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &trans       &kp UNDERSCORE  &kp EQUAL  &kp LESS_THAN  &kp GREATER_THAN  &kp RA(O)
+&trans  &kp RA(F18)           &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans       &kp C_VOL_DN    &kp EQUAL  &kp LESS_THAN  &kp GREATER_THAN  &kp BSLH   &bt BT_CLR_ALL
+                                                     &trans           &gif               &mo ADJ      &trans          &none      &trans
             >;
         };
 
